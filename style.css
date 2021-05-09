@@ -97,3 +97,15 @@ main {
   width: 100%;
   padding: 1.3rem 0;
 }
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+.download img {
+  width: 150px;
+}
+
+/*
