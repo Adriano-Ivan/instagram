@@ -108,4 +108,25 @@ main {
   width: 150px;
 }
 
-/*
+/* media queries */
+@media (max-width: 880px) {
+  main {
+    flex-direction: column-reverse;
+  }
+  .instagram-login {
+    margin-top: 150px;
+    width: 100vw;
+  }
+  #right-section {
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  .instagram-phone {
+    display: none;
+  }
+  .instagram-login {
+    width: 100vw;
+  }
+}
